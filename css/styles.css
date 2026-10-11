@@ -1,0 +1,25 @@
+ul,
+ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.gallery {
+    display: flex;
+    padding: 24px 156px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 24px;
+    flex-wrap: wrap;
+    max-width: 1440px;
+}
+
+.gallery-image {
+    width: 360px;
+    height: 200px;
+}
+
+.modal {
+    background-color: rgba(46, 47, 66, 0.8);
+}
